@@ -48,7 +48,9 @@ const App = () => {
         <Recipe 
         Label = {data.recipe.label}
         image = {data.recipe.image}
-        Calorie = {data.recipe.calories}  />
+        Calorie = {data.recipe.calories}  
+        ingredients = {data.recipe.ingredients}
+        />
 
       ))}
       </div>
